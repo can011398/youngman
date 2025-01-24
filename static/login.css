@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+    background-color:gray;
+    background-image: url("/static/qtll.jpeg");
+}
+body{
+    text-align: center;
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-area{
+    /* position: relative; */
+    /* top: 50%; */
+    padding:30px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    /* height: fit-content; */
+}
+.left{
+    text-align: right;
+}
+.margin{
+    margin-bottom: 10px;
+}
