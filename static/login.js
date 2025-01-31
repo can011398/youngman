@@ -9,6 +9,7 @@ function login_api(){
     .then(data=>{
         if(data['errno']==0){
             alert("登录成功")
+            window.location.href='/list';
         }
         else{
             alert("登录失败")

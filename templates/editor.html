@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editor</title>
+    <link rel="stylesheet" href="/static/simplemde.min.css">
+    <script src="/static/simplemde.min.js"></script>
+</head>
+<body onload="initEditor()">
+    <button onclick="setContent()">保存</button>
+    <button onclick="getContent()">获取</button>
+    <button onclick="disableEditor()">预览</button>
+    <textarea id="myEditor"></textarea>
+    <script src="/static/editor.js"></script>
+</body>
+</html>
